@@ -153,6 +153,7 @@
 
 			.icon.circle.fa-twitter {
 				/*background: #70aecd;*/
+				background: white;
 				/*color: white;*/
 			}
 
@@ -162,10 +163,31 @@
 
 			.icon.circle.fa-facebook {
 				/*background: #7490c3;*/
+				background: white;
 				/*color: white;*/
 			}
 
 				.icon.circle.fa-facebook:hover {
+					/*background: #829bc9;*/
+				}
+
+				.icon.circle.fa-tumblr {
+				/*background: #7490c3;*/
+				background: white;
+				/*color: white;*/
+			}
+
+				.icon.circle.fa-tumblr:hover {
+					/*background: #829bc9;*/
+				}
+
+				.icon.circle.fa-instagram {
+				/*background: #7490c3;*/
+				background: white;
+				/*color: white;*/
+			}
+
+				.icon.circle.fa-instagram:hover {
 					/*background: #829bc9;*/
 				}
 
@@ -330,8 +352,8 @@
 		background-size: 50em, 50em, auto;
 		color: white;
 		cursor: default;
-		padding: 5em 0em 5em 0em;
-		margin: 3em 3em 0em 3em;
+		height:100vh;
+		padding: 5em 0em 0em 0em;
 		text-align: center;
 	}
 
@@ -396,42 +418,35 @@
 
 		#banner .inner .image-row .image-set {
 			max-width: 600px;
-			max-height: 300px;
+			max-height: 250px;
 			overflow-y: auto;
 		}
 
 		.portfolio {
-			max-width: 200px;
+			max-width: 175px;
 			max-height: 200px;
 		}
 
 
 
 /* Footer */
-	#footer {
-		background: #ffffff;
-		color: #7c8081;
-		padding: 5em 5em 5em 5em;
-		text-align: center;
-	}
-
-		#footer .copyright {
-			font-size: 0.8em;
+		#banner .copyright {
+			font-size: 0.7em;
 			line-height: 1em;
 		}
 
-			#footer .copyright a {
+			#banner .copyright a {
 				color: inherit;
 			}
 
-			#footer .copyright li {
+			#banner .copyright li {
 				display: inline-block;
 				margin-left: 1em;
 				padding-left: 1em;
 				border-left: dotted 1px;
 			}
 
-				#footer .copyright li:first-child {
+				#banner .copyright li:first-child {
 					margin: 0;
 					padding: 0;
 					border: 0;

@@ -15,6 +15,5 @@ $('#contact_link').on('click', function(e) {
 
 $('#portfolio_link').on('click', function(e) {
 	e.preventDefault();
-	$('#banner').removeAttr('padding');
 	$('#banner').load("portfolio.html");
 });
